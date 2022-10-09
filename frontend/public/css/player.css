@@ -1,0 +1,443 @@
+:root {
+    --controIconsGray: #707070;
+    --queueCurrentSongGray: #131313;
+    --durationSliderBlue: #0096FF;
+    --textGray: #949494;
+  }
+  
+  
+  
+  
+  .player-body {
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 3;
+    top: 100%;
+  }
+  
+  .player-controls-body {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 4;
+    height: 72px;
+    bottom: -8%;
+  }
+  
+  .player-container {
+    width: 100%;
+    padding-top: 61px;
+  }
+  
+  .player-img-container {
+    text-align: center;
+  }
+  
+  .player-img-wrapper {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+  
+  .up-next-text-wrapper {
+    text-align: center;
+  }
+  
+  .up-next-text-wrapper h4 {
+    color: white;
+  }
+  
+  .up-next-text-wrapper hr {
+    background-color: white;
+  }
+  
+  .queue-song-container-active {
+    margin-top: 10px;
+    background-color: #131313;
+  }
+
+  .queue-song-container-inactive {
+    margin-top: 10px;
+  }
+
+  
+  .queue-song-wrapper {
+    max-height: 57px;
+  }
+  
+  .queue-img-wrapper {
+    max-height: 57px;
+    text-align: center;
+  }
+  
+  .queue-img-wrapper img {
+    max-height: 100%;
+    width: auto;
+    cursor: pointer;
+  }
+  
+  .queue-title-wrapper .song-title {
+    color: white;
+  }
+  
+  .queue-title-wrapper .song-artist {
+    margin-bottom: 0;
+    color: #949494;
+  }
+  
+  .queue-duration-wrapper h5 {
+    color: #949494;
+    margin-top: 10px;
+  }
+  
+  .queue-song-divider {
+    background-color: #707070;
+    height: 0.2px;
+    margin-bottom: 0;
+  }
+  
+  .controls-container {
+    width: 100%;
+    background-color: #212121;
+    height: 72px;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    bottom: 0;
+  
+  }
+  
+  #prevBtn {
+    font-size: 0.9rem;
+    color: white;
+    position: absolute;
+    top: 34%;
+    cursor: pointer;
+  
+  }
+  
+  #playBtn {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 44%;
+    top: 15%;
+    cursor: pointer;
+    display: none;
+  }
+
+  .playBtn-inactive {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 44%;
+    top: 15%;
+    cursor: pointer;
+    display: none !important;
+  }
+
+  .playBtn-active {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 44%;
+    top: 15%;
+    cursor: pointer;
+    display: block !important;
+  }
+  
+  #pauseBtn {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 44%;
+    top: 15%;
+    cursor: pointer;
+  }
+
+  .pauseBtn-inactive {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 44%;
+    top: 15%;
+    cursor: pointer;
+    display: none !important;
+  }
+
+  .pauseBtn-active {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    left: 44%;
+    top: 15%;
+    cursor: pointer;
+    display: block !important;
+  }
+  
+  #nextBtn {
+    font-size: 0.9rem;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 32%;
+    cursor: pointer;
+  
+  }
+  
+  .play-controls {
+    position: relative;
+  }
+  
+  .time-wrapper {
+    padding-top: 12px;
+    padding-left: 20px;
+  }
+  
+  .time-wrapper h6 {
+    display: inline;
+    color: #909090;
+  }
+  
+  .controls-current-song-container {
+    position: relative;
+  }
+  
+  .controls-img-wrapper {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+  }
+  
+  .controls-main-title {
+    position: absolute;
+    right: 26%;
+    top: 3%;
+  }
+  
+  #title {
+    color: white;
+    margin-bottom: 0;
+  }
+  
+  #artist {
+    color: #909090;
+    margin-bottom: 0;
+  }
+  
+  #dislike {
+    position: absolute;
+    font-size: 1.5rem;
+    right: 15%;
+    top: 29%;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  #like {
+    position: absolute;
+    font-size: 1.5rem;
+    right: 7%;
+    top: 22%; 
+    cursor: pointer;
+  }
+  
+  #songOptions {
+    position: absolute;
+    color: #909090;
+    font-size: 1.5rem;
+    right: 0%;
+    top: 26%;
+    cursor: pointer;
+  }
+  
+  #volumeBtn {
+    color: #909090;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0%;
+    top: 29%;
+    cursor: pointer;
+  }
+
+  .volumeBtn-active {
+    color: #909090;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0%;
+    top: 29%;
+    cursor: pointer;
+    display: block !important;
+  }
+
+  .volumeBtn-inactive {
+    color: #909090;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0%;
+    top: 29%;
+    cursor: pointer;
+    display: none !important;
+  }
+  
+  #muteBtn {
+    color: #909090;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0%;
+    top: 29%;
+    display: none;
+    cursor: pointer;
+  
+  }
+
+  .muteBtn-active {
+    color: #909090;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0%;
+    top: 29%;
+    display: block !important;
+    cursor: pointer;
+  }
+
+  .muteBtn-inactive {
+    color: #909090;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0%;
+    top: 29%;
+    display: none !important;
+    cursor: pointer;
+  }
+  
+
+  .repeatBtn-active {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #d3d3d3;
+    top: 30%;
+    left: 17%;
+    cursor: pointer;
+  }
+
+  .repeatBtn-inactive {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #909090;
+    top: 30%;
+    left: 17%;
+    cursor: pointer;
+  }
+  
+  #shuffleBtn {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #909090;
+    top: 30%;
+    left: 38%;
+    cursor: pointer;
+  }
+  
+  #showPlayer {
+    position: absolute;
+    font-size: 1.5rem;
+    color: #909090;
+    top: 23%;
+    right: 32%;
+    cursor: pointer;
+  }
+  
+  .time-slider-container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    bottom: 10%;
+  }
+  
+  .time-slider-wrapper {
+    height: 2px;
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: #707070;
+  }
+  
+  #timeSlider {
+    position: absolute;
+    height: 2px;
+    width: 99.4%;
+    background: #707070;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  #timeSlider .ui-slider-range-min {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background: #0096FF;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #timeSlider .ui-slider-handle {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    background: #0096FF;
+    position: absolute;
+    margin-top: -3px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .volume-container {
+    position: absolute;
+    width: 72px;
+    height: 2px;
+    background-color: var(--controIconsGray);
+    top: 50%;
+    right: 20%;
+  }
+  
+  #volume {
+    position: absolute;
+    height: 2px;
+    width: 99.4%;
+    background: var(--controIconsGray);
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  
+  #volume .ui-slider-range-min {
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    background: var(--durationSliderBlue);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+  }
+  
+  #volume .ui-slider-handle {
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    background: var(--durationSliderBlue);
+    position: absolute;
+    margin-left: -2px;
+    margin-top: -2px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .removeFromQueue {
+    color: white;
+    cursor: pointer;
+  }

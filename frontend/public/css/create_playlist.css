@@ -1,0 +1,22 @@
+.create-playlist-modal {
+  position: absolute;
+  background-color: #212121;
+  width: 640px;
+  height: 397px;
+  left: 30%;
+  top: 10%;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.modal-title {
+  color: #DADADA;
+}

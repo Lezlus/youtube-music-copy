@@ -1,0 +1,173 @@
+:root {
+    --controIconsGray: #707070;
+    --queueCurrentSongGray: #131313;
+    --durationSliderBlue: #0096FF;
+    --textGray: #949494;
+    --youtubeGray: #212121;
+    --youtubeWhite: #DADADA;
+  }
+  
+  .music-list-page {
+    background-color: black;
+  }
+  
+  .title-music-list {
+    color: white;
+  }
+  
+  .songs-list-container {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .song-list-wrapper {
+    position: relative;
+  }
+  
+  .song-list-img-wrapper {
+    width: 200px;
+    height: 250px;
+    background-color: black;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  .artist-list-img-wrapper {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  .song-list-img-wrapper img:hover {
+    transition: all 1s;
+    filter: brightness(0.5);
+  }
+  
+  .song-list-img-wrapper img:hover:after {
+    transition: all 1s;
+    filter: brightness(1);
+  }
+  
+  .song-list-info-wrapper {
+    width: 200px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 8px;
+  }
+  
+  .song-list-info-wrapper h4 {
+    font-size: 1.2rem;
+  }
+  
+  .song-list-title {
+    color: white;
+  }
+  
+  .song-list-type {
+    color: #949494;
+  }
+  
+  .song-list-type span {
+    color: #949494;
+  }
+  
+  .dot-seperator {
+    margin-left: 1px;
+    margin-right: 6px;
+  }
+  
+  .playNextSong {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .addToQueueSong {
+    cursor: pointer;
+    color: white;
+  }
+  
+  /* Playlist css */
+  
+  
+  .playlist-container {
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  .playlist-img-wrapper {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+
+  .playlist-img-wrapper.library {
+    width: 160px;
+    height: 160px;
+    background-color: black;
+    margin: 0 auto;
+    cursor: pointer;
+  }
+  
+  .playlist-img-wrapper img {
+    border-radius: 6px;
+    transition: all 1s;
+    filter: brightness(1);
+  }
+  
+  .playlist-img-wrapper img:hover {
+    transition: all 1s;
+    filter: brightness(0.5);
+  }
+  
+  .playlist-img-wrapper img:hover:after {
+    transition: all 1s;
+    filter: brightness(1);
+  }
+  
+  .playlist-info-wrapper {
+    width: 200px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 8px;
+  }
+  
+  .playlist-info-wrapper h4 {
+    font-size: 1.2rem;
+  }
+  
+  .playlist-title {
+    color: white;
+  }
+  
+  .playlist-type {
+    color: #949494;
+  }
+  
+  .playlist-type span {
+    color: #949494;
+  }
+  
+  .playNextPlaylist {
+    cursor: pointer;
+    color: white;
+  }
+  
+  .addToQueuePlaylist {
+    cursor: pointer;
+    color: white;
+  }
+
+/* artist css */
+.artist-list-img-wrapper img {
+  border-radius: 50%;
+}
+
+.song-list-img-wrapper img {
+  border-radius: 6px;
+  transition: all 1s;
+  filter: brightness(1);
+}

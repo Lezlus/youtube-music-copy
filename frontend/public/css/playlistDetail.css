@@ -1,0 +1,55 @@
+.playlist-song-row {
+  margin-bottom: 10px;
+}
+
+.playlist-header {
+  margin-bottom: 4rem;
+}
+
+.playlist-img-wrapper {
+  height: 250px;
+  width: 250px;
+}
+
+.playlist-song-row-img-wrapper {
+  height: 40px;
+  width: 40px;
+}
+
+.thumbs-up-active {
+  color: white;
+}
+
+.thumbs-up-inactive {
+  color: #2d2d2d;
+}
+
+.thumbs-down-active {
+  color: white;
+}
+
+.thumbs-down-inactive {
+  color: #2d2d2d;
+}
+
+.playlist-options {
+  margin-left: 20px;
+  font-size: 1.3rem;
+  color: white;
+  cursor: pointer;
+}
+
+.playlist-song-options {
+  font-size: 1.3rem;
+  color: white;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.playlist-song-row-img {
+  cursor: pointer;
+}
+
+.playlist-song-row-txt {
+  cursor: pointer;
+}

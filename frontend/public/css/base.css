@@ -1,0 +1,94 @@
+:root {
+  --controIconsGray: #707070;
+  --queueCurrentSongGray: #131313;
+  --durationSliderBlue: #0096FF;
+  --textGray: #949494;
+  --textWhite: #DADADA;
+  --backgroundGray: #212121;
+}
+
+body {
+  background-color: black;
+}
+
+/* Navbar styling */
+.navbar-custom {
+  background-color: black;
+  height: 100px;
+}
+
+.navbar-brand-wrapper {
+  margin-left: 10rem;
+}
+
+.navbar-brand-custom {
+  color: white;
+  font-size: 2rem;
+}
+
+.navbar-link-container {
+  margin-right: 3rem;
+}
+
+.navbar-link-custom {
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.main-container {
+  background-color: black;
+}
+
+.white-txt {
+  color: var(--textWhite);
+}
+
+.create-modal {
+  position: absolute;
+  width: 400px;
+  background-color: var(--queueCurrentSongGray);
+  left: 50%;
+  top: 10%
+}
+
+.delete-playlist-option {
+  cursor: pointer;
+}
+
+.search-container {
+  max-width: 250px;
+  position: relative;
+  margin-left: 2em;
+}
+
+.search-bar {
+  width: 80%;
+  color: white !important;
+  background-color: black;
+}
+
+.search-row {
+  background-color: #707070;
+  width: 100%;
+  height: 30px;
+}
+
+.search-row p {
+  color: white;
+}
+
+.search-row-container {
+  position: absolute;
+  left: 10%;
+  top: 100%;
+  width: 250px;
+  /* height: 500px; */
+  z-index: 5;
+}
+
+.search-icon {
+  padding: 5px !important;
+  color: white !important;
+}
+

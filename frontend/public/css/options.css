@@ -1,0 +1,72 @@
+.options-box-active {
+  width: 200px;
+  height: 350px;
+  background-color: #212121;
+  display: block;
+  z-index: 5;
+  position: absolute;
+  top: 3%;
+  right: 0%;
+}
+
+.playlist-detail-options-box {
+  width: 200px;
+  height: 350px;
+  background-color: #212121;
+  display: block;
+  z-index: 5;
+  position: absolute;
+  right: 35%;
+}
+
+.options-box-inactive {
+  width: 200px;
+  height: 350px;
+  background-color: #212121;
+  display: none;
+  z-index: 5;
+  position: absolute;
+  top: 3%;
+  right: 0%;
+}
+
+.options-row {
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 20px;
+}
+
+.options-txt {
+  color: #DADADA;
+}
+
+.options-icon {
+  color: #DADADA;
+}
+
+.options-icon-wrapper {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.options-icon {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.option-row-highlight {
+  transition: all 0.5s;
+  background-color: #212121;
+  cursor: pointer;
+}
+
+.option-row-highlight:hover {
+  transition: all 0.5s;
+  background-color: #3a3a3a;
+}
+
+.option-row-highlight:hover:after {
+  transition: all 0.5s;
+  background-color: #212121;
+}
